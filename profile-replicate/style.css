@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: gilroy;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+#new{
+   display: flex;
+   align-items: center;
+}
+.new{
+    margin-right: 25px;
+    height: 350px;
+    width: 280px;
+    background-color: rgb(219, 213, 213);
+    border-radius: 20px;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+}
+ .new img{
+     margin-left: 35px;
+     margin-top: 10px;
+     border-radius: 20px;
+     height: 70%;
+     width: 70%;
+   
+ }
+.new h1{
+    font-size: 20px;
+}
+
+ button{
+     height: 35px;
+     width: 70px;
+     border-radius: 10px;
+     font-size: 30px;
+     position: relative;
+     top: -35%;
+     border: none;
+     left: 93%;
+ }
+ button i {
+     font-size: 18px;
+ }
+ .new #strangers{
+     color: tomato;
+ }
+ .nwe #friends{
+     color: green;
+ }
